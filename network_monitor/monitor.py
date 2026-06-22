@@ -43,8 +43,10 @@ class NetworkMonitor:
         self._archive = []
         # Track the timestamp of the last automated CSV export, initially None.
         self._last_export_date = None
-        # Create a threading Lock to ensure safe, serialized access to shared memory.
-        self._lock = threading.Lock()
+        # Create a reentrant Lock to ensure safe, serialized access to shared memory.
+        # RLock is used because _save_cache (which acquires the lock) is called
+        # from within _apply_result (which already holds the lock).
+        self._lock = threading.RLock()
         # Create a threading Event to coordinate a graceful shutdown of the loop.
         self._stop_event = threading.Event()
         # Create a list to keep track of active background thread objects.

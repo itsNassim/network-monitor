@@ -1,0 +1,26 @@
+[
+    {
+        "machine_name": "my_proxmox",
+        "machine_ip": "192.168.100.201",
+        "went_down": "2026-06-23T00:57:47.395425",
+        "came_back_up": "2026-06-23T00:58:08.897441"
+    },
+    {
+        "machine_name": "Server-AD",
+        "machine_ip": "192.168.1.10",
+        "went_down": "2026-06-23T00:58:21.127336",
+        "came_back_up": "2026-06-23T00:58:22.393887"
+    },
+    {
+        "machine_name": "Proxy",
+        "machine_ip": "192.168.1.30",
+        "went_down": "2026-06-23T00:58:21.127336",
+        "came_back_up": "2026-06-23T00:58:22.393887"
+    },
+    {
+        "machine_name": "NAS",
+        "machine_ip": "192.168.1.20",
+        "went_down": "2026-06-23T00:58:21.127336",
+        "came_back_up": "2026-06-23T00:58:22.393887"
+    }
+]
