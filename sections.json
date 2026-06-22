@@ -1,0 +1,14 @@
+{
+  "sections": [
+    {
+      "name": "mine",
+      "color": "#3d4a6a",
+      "order": 0
+    },
+    {
+      "name": "Default",
+      "color": "#4a5a7a",
+      "order": 1
+    }
+  ]
+}

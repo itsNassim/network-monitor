@@ -1,5 +1,5 @@
 {
-  "polling_interval_sec": 60,
+  "polling_interval_sec": 20,
   "archive_export_days": 30,
   "archive_export_prefix": "downtime_archive",
   "logs_directory": "E:\\alg tel\\network-monitor\\logs"
